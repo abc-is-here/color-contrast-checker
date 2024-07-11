@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrast checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inp-col">
+            <div class="inp-con">
+                <div class="col-con">
+                    <label for="txt-col">Text Color:</label>
+                    <input type="color" name="txt-col" id="txt-col" value="#000000">
+                </div>
+            </div>
+            <div class="col-con">
+                <label for="bg-col">BackGround Color:</label>
+                <input type="color" name="bg-col" id="bg-col" value="#3277f6">
+            </div>
+        </div>
+        <div class="result">
+            <div id="prev">
+                <p>A better contrast is a way to acheive success!</p>
+            </div>
+            <p id="contr">1</p>
+            <div id="rate">Nice!</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
